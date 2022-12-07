@@ -1,0 +1,27 @@
+#bt1{
+  width:100%;
+  height:60px;
+  border:none;
+  outline:none;
+  font-size:20px;
+  background-color:#40B68F;
+  color:black;
+  box-shadow:4px 4px 5px #A8A8A8;
+  margin-top:10px;
+  border-radius:4px;
+}
+#bt2{
+  width:50%;
+  height:60px;
+  border:none;
+  outline:none;
+  font-size:20px;
+  background-color: #FF090B;
+  
+  color:white;
+  box-shadow:4px 4px 5px #A8A8A8;
+  margin-top:10px;
+  border-radius:4px;
+  margin-left:10%;
+  
+}

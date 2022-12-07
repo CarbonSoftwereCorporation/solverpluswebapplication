@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+ <link rel="stylesheet" href="physics.css">
+<body>
+  <br><br><br>
+  <div id="table">
+    <h1>
+      <font color="white">
+        <center>
+        বল নির্ণয়</center>
+      </font>
+    </h1>
+    <br><br><br><br>
+    <input type="number"placeholder="ভর"id="m">
+    <br>
+     <input type="number"placeholder="ত্বরণ"id="a">
+     <br>
+     
+      <button onclick="result()"id="bt2">নির্নয়</button>
+  </div>
+  <div id="show">
+    <br><br>
+    <center>
+          <div id="man">
+            
+          </div>
+        <div id="solve">
+          
+          
+        </div>
+      
+    
+    </center>
+  </div>
+  <!----------মান নির্নয়--->
+  <script>
+  function result() {
+    var mass=document.getElementById("m").value;
+    var acc=document.getElementById("a").value;
+    ///calculate here
+    var answer="মানঃ"+mass*acc+" N";
+    document.getElementById("man").innerHTML=answer;
+    //ব্যাখা
+
+    var b="<center><br>সমাধান কৌশলঃ<br><br> আমরা জানি,<br>F=ma<br>বা,F="+mass+"*"+acc+"<br>বা,F="+acc*mass+"<br>_সমাপ্ত_"
+    document.getElementById("solve").innerHTML=b;
+    
+  }
+  
+   
+   
+   
+   
+   
+   
+   
+  </script>
+  <!---sodo 
+  _____________________________________
+  |ত্বরন |  
+  |ধরন |
+  |সূএ |
+  _____________________________________
+
+</body>
+
+</html>
